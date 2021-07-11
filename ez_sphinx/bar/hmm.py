@@ -26,7 +26,7 @@ class HMM:
 		"""
 		return self.is_studying
 
-	def offer_coffee(self, people):
+	def allow_coffee(self, person):
 		""" Indicate if one can get a cup of coffee from HMM.
 		Returns:
 			bool: if True, HMM can offer coffee to people. Otherwise, she won't.
