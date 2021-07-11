@@ -20,7 +20,7 @@ print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
-project = 'hello'
+project = 'ez-sphinx'
 copyright = '2021, Yawei Li'
 author = 'Yawei Li'
 
