@@ -9,7 +9,7 @@ class HMM:
 		study_time (int, optional): the study time (in hours) every day. By default 25. 
 	"""
 	def __init__(self, study_time=25):
-		self.study_time= study_time
+		self.study_time = study_time
 		self.is_studying = False
 
 	def study(self):
