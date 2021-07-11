@@ -1,4 +1,4 @@
-ez.sphinx.bar
+ez_sphinx.bar
 =============
 
 .. contents:: Contents
