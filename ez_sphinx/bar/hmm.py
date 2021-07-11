@@ -25,3 +25,18 @@ class HMM:
 			bool: if True, HMM is currently studying. Otherwise, she must be playing with the mobile phone.
 		"""
 		return self.is_studying
+
+	def allow_coffee(self, person):
+		""" Indicate if one can get a cup of coffee from HMM.
+
+		Args:
+			person (string): name of person who requests the coffee
+
+		Returns:
+			bool: if True, HMM can offer coffee to people. Otherwise, she won't.
+		"""
+		if person not in self.friends:
+			return False
+		if person == 'lgg':
+			return False
+		return True
