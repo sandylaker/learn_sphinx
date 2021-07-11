@@ -28,15 +28,13 @@ author = 'Yawei Li'
 version = ez_sphinx.version
 release = ez_sphinx.version
 
-
-
 # -- General configuration ---------------------------------------------------
-
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+
 extensions = [
-	'sphinx.ext.autodoc',
+    'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'recommonmark',
@@ -54,7 +52,6 @@ pygments_style = "sphinx"
 
 add_module_names = False
 
-
 # -- Options for HTML output -------------------------------------------------
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
@@ -66,10 +63,9 @@ html_theme_options = {
     'navigation_depth': 2,
 }
 
-
 master_doc = "index"
 
 source_suffix = {
-	".rst": "restructuredtext",
-	".md": "markdown",
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
