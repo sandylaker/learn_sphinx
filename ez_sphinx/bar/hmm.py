@@ -11,17 +11,31 @@ class HMM:
 	def __init__(self, study_time=25):
 		self.study_time= study_time
 		self.is_studying = False
-
+		self.friends = ['lgg','jgg','kxg','zzl']
 	def study(self):
 		"""HMM starts to study."""
 		self.is_studying = True
 		for i in range(self.study_time):
 			print(f"is studing: {self.is_studying}")
 
-	def get_study_state(self):
+	@property
+	def is_studying(self):
 		"""Get the state indicating if HMM is currently studying.
 
 		Returns:
 			bool: if True, HMM is currently studying. Otherwise, she must be playing with the mobile phone.
 		"""
 		return self.is_studying
+	def offer_coffee(self, people):
+		""" Indicate if one can get a cup of coffee from HMM.
+
+		Returns:
+			bool: if True, HMM can offer coffee to people. Otherwise, she won't.
+		"""
+		if people not in self.friends:
+			return False
+		if people == 'lgg':
+			return False
+		return True
+		
+		
