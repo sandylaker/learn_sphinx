@@ -28,11 +28,15 @@ class HMM:
 
 	def allow_coffee(self, person):
 		""" Indicate if one can get a cup of coffee from HMM.
+
+		Args:
+			person(string): name of person who requests the coffee
+			
 		Returns:
 			bool: if True, HMM can offer coffee to people. Otherwise, she won't.
 		"""
-		if people not in self.friends:
+		if person not in self.friends:
 			return False
-		if people == 'lgg':
+		if person == 'lgg':
 			return False
 		return True
