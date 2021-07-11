@@ -18,7 +18,6 @@ class HMM:
 		for i in range(self.study_time):
 			print(f"is studing: {self.is_studying}")
 
-	@property
 	def is_studying(self):
 		"""Get the state indicating if HMM is currently studying.
 
