@@ -27,7 +27,7 @@ class HMM:
 		return self.is_studying
 
 	def allow_coffee(self, person):
-		""" Indicate if one can get a cup of coffee from HMM.
+		"""Indicate if one can get a cup of coffee from HMM.
 
 		Args:
 			person (string): name of person who requests the coffee
