@@ -18,7 +18,7 @@ class HMM:
 		for i in range(self.study_time):
 			print(f"is studing: {self.is_studying}")
 
-	def is_studying(self):
+	def get_study_state(self):
 		"""Get the state indicating if HMM is currently studying.
 
 		Returns:
