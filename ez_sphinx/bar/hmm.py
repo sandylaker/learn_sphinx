@@ -31,7 +31,7 @@ class HMM:
 
 		Args:
 			person(string): name of person who requests the coffee
-			
+
 		Returns:
 			bool: if True, HMM can offer coffee to people. Otherwise, she won't.
 		"""
