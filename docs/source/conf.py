@@ -13,10 +13,10 @@
 import os
 import sys
 
-import ez_sphinx
-
 sys.path.insert(0, os.path.abspath('../..'))
 print(sys.path)
+
+import ez_sphinx
 
 # -- Project information -----------------------------------------------------
 
