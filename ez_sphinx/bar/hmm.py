@@ -33,7 +33,7 @@ class HMM:
 			person (string): name of person who requests the coffee
 
 		Returns:
-			bool: if True, HMM can offer coffee to person. Otherwise, she won't.
+			bool: if True, HMM can offer coffee to person.
 		"""
 		if person not in self.friends:
 			return False
